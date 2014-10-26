@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## The function below creates a matrix of special, function-like kind 
+## The function below creates a matrix of special kind, in fact it's a function  
 
 makeMatrix <-function(x=matrix()) {
 	inv<-NULL
@@ -17,7 +17,7 @@ makeMatrix <-function(x=matrix()) {
 
 
 ## The following function solves the inverse of a matrix and places 
-#this solution to the relevant special matrix.
+#this solution to the relevant special matrix above.
 
 cacheInver <- function(x,...) {
 	inv<-x$getinver()
